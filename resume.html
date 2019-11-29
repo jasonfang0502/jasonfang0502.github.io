@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>履歷</title>
+    <title>個人履歷</title>
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="css/resume.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="sidenav">
+    <div class="sidenav" id="first">
         <img src="./img/頭貼.jpg" class="circle" alt="headshot">
         <a href="#about">關於我</a>
         <a href="#learn">學歷</a>
@@ -21,19 +23,21 @@
     <div class="content" id="about" style="padding-top:60px;">
         <h1>方東華 Jason Fang</h1>
         <hr>
-        <p style=" margin-bottom: 8px; ">個性外向開朗，樂於接受挑戰、嘗試不同事物，雖就讀醫學系但相信人生有無限可能。除了顧好學業外，也學習各種程式語言、投資理財、第二外語，也有個小小夢想是開補習班。<br>是個熱愛駕駛的男人，腳踏車的速度是七十 ，摩托車是一百四，開車只有一百七，因為車不是太好。運動的部分我騎公路車，上過三二七五的武嶺，環過破千公里的島，平時最喜歡爬山，享受柳暗花明又一村的感覺。球類的話也有桌球，雖然沒打過什麼比賽，但隨時歡迎單挑！
+        <p style="margin-bottom: 8px; ">個性外向開朗，樂於接受挑戰、嘗試不同事物，雖就讀醫學系但相信人生有無限可能。除了顧好學業外，也學習各種程式語言、投資理財、第二外語，也有個小小夢想是開補習班。<br>是個熱愛駕駛的男人，腳踏車的速度是七十 ，摩托車是一百四，開車只有一百七，因為車不是太好。運動的部分我騎公路車，上過三二七五的武嶺，環過破千公里的島，平時最喜歡爬山，享受柳暗花明又一村的感覺。球類的話也有桌球，雖然沒打過什麼比賽，但隨時歡迎單挑！
         </p>
         <ul>
-            <li>生日：2000.01.01</li>
+            <li>生日：1999.12.18</li>
             <li>性別：男</li>
             <li>血型：O</li>
+            <li>信箱：b07401155@ntu.edu.tw</li>
         </ul>
-        <a href=" https://www.facebook.com " target="_blank" id="fb">
+        <a href="https://www.facebook.com/jason.fang.165" target="_blank" id="fb">
             <i class="fab fa-facebook-f " style="color:white; margin-left:2.6%;margin-top:25% ;font-size:25px "></i>
         </a>
         <a href="https://www.instagram.com " target="_blank" id="ig">
             <i class="fab fa-instagram " style="color:white; margin-left:2%;margin-top:25% ;font-size:25px "></i>
         </a>
+
         <hr>
     </div>
     <div class="content" id="learn" style="position: relative;">
@@ -54,41 +58,40 @@
         <h2>興趣</h2>
         <ul>
             <li><b>騎腳踏車</b>－騎乘車種：WHEELER AR5。<br>也曾經比過自行車比賽，但還是喜歡輕鬆、悠閒的單車旅行。</li>
-            <li><b>騎重機</b>－因家裡因素目前沒有車，以租車為主，常去學校附近的輪胎城，目標是把店裡面有的車都租過一遍。</li>
+            <li><b>騎重機</b>－比起開車，更享受這種與外界沒有隔閡的感受，壓車過彎的刺激感也是無法言喻，與騎到150以上都會造成腎上腺素爆表，這是開車開到200都不會體驗到的感覺。不過因家裡因素目前沒有車，以租車為主，常去學校附近的輪胎城，目標是把店裡面有的車都租過一遍。</li>
             <li><b>攝影</b>－攝影是真實映象瞬間的定格，它的這個特性就註定和其它的藝術有著本質的不同，攝影是一瞬決定了永久。一位人物，一個場景，一種氛圍，一個瞬間，被定格記錄下來，這就是攝影的意義。個人較喜歡拍攝夜景。</li>
             <li><b>旅行</b>－愛旅行的人，一定有著與眾不同的生活態度。你會發現那些喜歡旅行的人，他們的性格都是比較開朗活潑的，對待很多事情也會有更寬廣的視角，不會一味地因為一個小方面而區局限自己。</li>
         </ul>
 
-        <div style="margin-left: 31px;">
-            <div class="imgframe">
-                <img src="./img/wheeler.jpg" class="intimg"> <br>蘭陽平原 @北宜公路礁溪端
+        <div style="margin-left: 20px;">
+            <div class="imgframe bike" style="z-index: 2">
+                <img src=" ./img/bike0.jpg " class="intimg enlarge" id="bike">
+                <p>蘭陽平原 @北宜公路礁溪端</p>
             </div>
-            <div class="imgframe">
-                <img src="./img/197.jpg" class="intimg"> <br>戀戀197自行車公路賽 @台11線東河段
+            <div class="imgframe moto ">
+                <img src="./img/moto0.jpg " class="intimg enlarge" id="moto">
+                <p>GSX-150R @新竹南寮漁港</p>
             </div>
-            <div class="imgframe">
-                <img src="./img/環島.jpg" class="intimg"> <br>2019夏－單車環島 @台13線三義坡
+            <div class="imgframe photo " style="z-index: 2">
+                <img src="./img/photo0.jpg " class="intimg enlarge" id="photo">
+                <p>新北板橋歡樂耶誕城 @板橋公車站</p>
             </div>
-            <div class="imgframe">
-                <img src="./img/gsx.jpg" class="intimg"> <br>GSX-150R @新竹南寮漁港
-            </div>
-            <div class="imgframe">
-                <img src="./img/xmas.jpeg" class="intimg"> <br>新北板橋歡樂耶誕城 @板橋公車站
-            </div>
-            <div class="imgframe">
-                <img src="./img/donagau.jpg" class="intimg"> <br>高雄茂林區多納古戰場
+            <div class="imgframe travel ">
+                <img src="./img/travel0.jpg " class="intimg enlarge" id="travel">
+                <p>外埔忘憂谷</p>
             </div>
         </div>
         <hr>
     </div>
     <div class="content" id="skill">
         <h2>專長</h2>
-        <ul style="list-style-image:url('./img/lightbulb.jpg');">
-            <li>圍棋：業餘六段</li>
-            <li>化學家教老師：曾教過7名學生，在課業或競賽上都有不錯的表現。</li>
-            <li>程式語言：HTML、CSS、Javascript、Java、C/C++、SQL</li>
-            <div class="imgframe" style="width:820px">
-                <img src="./img/javaproject.jpg" style="width:820px;height:400px"> Java程式設計－期末project
+        <ul style="list-style-image:url( './img/lightbulb.jpg'); ">
+            <li>圍棋：業餘六段。</li>
+            <li>化學家教老師：曾指導過7名學生，在課業或競賽上都有不錯的表現。</li>
+            <li>程式語言：HTML、CSS、Javascript、Java、C/C++、SQL。</li>
+            <li>日文：後天要考N2(抖抖抖)。</li>
+            <div class="imgframe" style="width:820px ">
+                <img src="./img/javaproject.jpg " style="width:820px;height:400px "> Java程式設計－期末project，因本人熱愛重機，故以此當作題目
             </div>
         </ul>
         <hr>
@@ -97,18 +100,23 @@
         <h2>特殊經歷</h2>
 
 
-        <ul style="list-style-type: none;">
-            <li> <i class="fas fa-trophy" style="color:#ffc107!important"></i>TOEFL-iBT：100分（R：28，L：25，S：22，W：25）
+        <ul style="list-style-type: none;padding-inline-start:20px ">
+            <li> <i class="fas fa-trophy " style="color:#ffc107!important "></i>TOEFL-iBT：100分（R：28，L：25，S：22，W：25）
             </li>
-            <li><i class="fas fa-trophy" style="color:#ffc107!important"></i> 2017國際化學奧林匹亞－金牌
-            </li>
-            <li><i class="fas fa-trophy" style="color:#ffc107!important"></i> 2017國際化學奧林匹亞－金牌
+            <li><i class="fas fa-trophy " style="color:#ffc107!important "></i> 2017國際化學奧林匹亞－金牌
             </li>
         </ul>
+        <div class="imgframe" style="width:820px ">
+            <img src="./img/icho.jpg " style="width:300px;height:400px;margin-left:270px">2017年7月至泰國佛統府參加國際化學奧林匹亞，載譽歸國
+        </div>
         <hr>
     </div>
 
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
     <script src="https://kit.fontawesome.com/aa91198294.js " crossorigin="anonymous "></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js "></script>
+    <script src="./js/resume.js "></script>
 </body>
 
 </html>
